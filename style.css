@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+
+  
+
+
+
+@media screen and ( min-width: 1024px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: nome;
+}
+
+    body{
+    max-width: 720;
+    font-size: 100%;
+    background: white;
+    width: 100%;
+	  height: 100%;
+	  margin: 0   
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    background-color: black;
+}
+
+.cabecalho-imagem{
+    height: 4.5rem;
+    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Glacial Indifference', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.cabecalho-menu-item:hover{
+  color:#00caf8;
+  transition-duration: 0.5s;
+}
+
+
+
+.conteudo {
+    
+    background-image: url(./BG1HOMEPAGE.svg);
+    background-size: cover;
+    
+  }
+
+  .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 2.375rem;
+  }
+
+  .conteudo-principal-escrito-titulo {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 4.688rem;
+    color: white;
+  }
+
+  .conteudo-principal-escrito-subtitulo {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .conteudo-principal-escrito-botao {
+    display: inline-block;
+    background-color: #0c6ebd;
+    width: 28.125rem;
+    height: 3.75rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-family: 'Garet', sans-serif;
+    font-weight: 550;
+    font-size: 1.125rem;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+
+      background-color: rgb(6, 199, 70)
+  }
+
+  &:active {
+
+    background-color: rgb(5, 255, 88); }
+
+  }
+
+  .conteudo-principal-redessociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .conteudo-principal-escrito-chamamento{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 1000;
+    font-size: 1.125rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+
+  .conteudo-principal-imagemtraco{
+    height: 0.281rem;
+    
+  }
+
+
+  .conteudo-principal-imagempessoa1{
+    height: 40rem;
+  }
+
+  .conteudo2 {
+    margin-bottom: 0rem;
+    height: 45rem;
+    background-image: url(./BG2SAIBAMAIS.svg);
+    background-size: cover;
+  }
+
+  .conteudo-principal2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    row-gap: 30px;
+  }
+
+  
+  .bloco-de-conteudo{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+
+  .video{
+    
+    margin-top: 5rem;
+    right: 33.65%;
+    bottom: 26%;
+  }
+
+
+  .conteudo-principal-escrito2{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+  }
+
+  .conteudo-principal-escrito-titulo2{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 2.594rem;
+    color: white;
+  }
+
+.conteudo-principal-escrito-subtitulo2{
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 1.188rem;
+    color: white;
+}
+
+.conteudo-principal-escrito-botao2{
+    background-color: #0c6ebd;
+    width: 18.75rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-family: 'Garet', sans-serif;
+    font-weight: 790;
+    font-size: 0.813rem;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+
+      background-color: rgb(6, 199, 70)
+  }
+
+  &:active {
+
+    background-color: rgb(5, 255, 88); }
+}
+
+.conteudo3{
+    margin-bottom: 0rem;
+    height: 45rem;
+    background-image: url(./bgconteudo3.jpg);
+    background-size: 100%;
+    
+}
+
+.conteudo-principal3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.conteudo-principal-imagempessoa2{
+    height: 38rem;
+    margin-top: 7.094rem;
+    
+
+}
+
+
+.conteudo-principal-escrito3{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    
+}
+
+.conteudo-principal-escrito-titulo3{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 2.981rem;
+    color: white;
+    
+    
+}
+
+.conteudo-principal-escrito-subtitulo3{
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 1.063rem;
+    color: white;
+    
+    
+}
+
+.conteudo-principal-escrito-botao3{
+    background-color: #0c6ebd;
+    width: 18.75rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-family: 'Garet', sans-serif;
+    font-weight: 790;
+    font-size: 0.813rem;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+
+      background-color: rgb(6, 199, 70)
+  }
+
+  &:active {
+
+    background-color: rgb(5, 255, 88); }
+}
+
+.conteudo4{
+   
+    height: 45rem;
+    background-image: url(./background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.conteudo-principal4{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: center;
+    
+}
+
+.conteudo-principal-titulo{
+    margin-top: 5.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 21.25rem;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito-titulo4{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 2.594rem;
+    color: white;
+    text-align: center;
+}
+
+.conteudo-principal-escrito4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.bloco-de-texto-1{
+   
+    display: flex;
+    align-items: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 1.063rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    
+    color: white;
+    text-align: center;
+    width: 18.75rem;
+    height: 18.75rem;
+    border:2px solid white;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 1.563rem;
+   
+}
+
+.bloco-de-texto-2{
+    display: flex;
+    align-items: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 1.063rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    color: white;
+    text-align: center;
+    width: 18.75rem;
+    height: 18.75rem;
+    border:2px solid white;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 1.563rem;
+   
+}
+
+.bloco-de-texto-3{
+
+    display: flex;
+    align-items: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 1.063rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    color: white;
+    text-align: center;
+    width: 18.75rem;
+    height: 18.75rem;
+    border:2px solid white;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 1.563rem;
+  
+}
+
+.botao-div-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito-botao4{
+    background-color: #0c6ebd;
+    width: 18.75rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-family: 'Garet', sans-serif;
+    font-weight: 790;
+    font-size: 0.813rem;
+    color: white;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+
+    &:hover {
+
+      background-color: rgb(6, 199, 70)
+  }
+
+  &:active {
+
+    background-color: rgb(5, 255, 88); }
+}
+
+.conteudo6{
+  height: 45rem;
+    background-image: url(./bgsobrenós.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudo-principal6{
+  margin-top: 0rem;
+}
+
+.bloco-de-conteudo-6{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito6{
+  margin-left: 5rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  gap: 2.375rem;
+  
+
+}
+
+.conteudo-principal-escrito-titulo6{
+  margin-top: 15rem;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 2.594rem;
+    color: #00caf8;
+    
+}
+
+.conteudo-principal-escrito-texto6{
+  display: flex;
+  align-items: center;
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
+  font-size: 1.063rem;
+  color: black;
+}
+
+.conteudo-principal-imagemlogoativos{
+
+  margin-top: 12rem;
+}
+
+.conteudo5{
+  background-image: url(./bgpg5.svg);
+  background-size: contain;
+  height: 53rem;
+}
+
+.conteudo-principal5{
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
+  font-size: 1.063rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.tituloform{
+ 
+    display: flex;
+    flex-direction: row;
+    gap: 24.25rem;
+    justify-content: center;
+  margin-top: 10rem;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #0c6ebd;
+  margin-bottom: 5rem;
+
+}
+
+input, select, textarea, button {
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
+  font-size: 1.063rem;
+  color: black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.grupo:before, .grupo:after {
+  display: table;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  
+}
+
+.grupo:after {
+  clear: both;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.grupo{
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: none;
+
+}
+
+.campo1 {
+  
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: none;
+  
+  
+}
+
+/* Elementos de classe "campo" */
+
+.campo{
+  
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: none;
+  
+}
+
+
+.campo2 {
+  margin-bottom: 1em;
+  border: none;
+  
+}
+
+.campo3 {
+  margin-bottom: 1em;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  
+}
+
+.campo4 {
+  margin-bottom: 1em;
+  border: none;
+  
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: black;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ 
+}
+
+fieldset.grupo .campo {
+  float:  left;
+  margin-right: 1em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+  padding: 0.2em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.campo select option {
+  padding-right: 1em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  background: #E0E0F8;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.botaoform {
+  margin-top: 183rem;
+  width: 25.188rem;
+  height: 2.438rem;
+  border: none;
+  border-radius: 1.25rem;
+  font-family: 'Garet', sans-serif;
+  font-weight: 790;
+  font-size: 0.813rem;
+  color: white;
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  background-color: #0c6ebd;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+ 
+ 
+}
+
+.botaoform:hover {
+  background: rgb(6, 199, 70);
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+
+.botaoform, select{
+  cursor: pointer;
+}
+
+.botao-form{
+
+justify-content: center;
+}
+
+}
+
