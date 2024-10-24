@@ -2,13 +2,15 @@
 if(isset($_POST['email']) && !empty($_POST['email'])) {
 
 $nome = addslashes($_POST['nome']);
+$sobrenome = addslashes($_POST['nome']);
 $email = addslashes($_POST['email']);
-$numero = addslashes($_POST['numero']);
+$número = addslashes($_POST['numero']);
 $CNPJ = addslashes($_POST['Você possui CNPJ?']);
 
 $to = "contato.caiosantosnascimento@gmail.com";
 $subject = "Contato - Landing Page Ativos";
 $body = "Nome:".$nome. "\r\n".
+        "Sobrenome:".$sobrenome.
         "Email:".$email. "\r\n".
         "Número:".$numero. "\r\n".
         "Possui CNPJ:".$CNPJ. "\r\n";
