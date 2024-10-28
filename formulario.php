@@ -1,5 +1,5 @@
 <?php
-$_POST['email'] {
+if(isset($_POST['email'])) {
 
 $nome = addslashes($_POST['Nome']);
 $sobrenome = addslashes($_POST['Sobrenome']);
@@ -10,7 +10,7 @@ $CNPJ = addslashes($_POST['Possui CNPJ?']);
 $to = "atendimento@ativossc.com.br";
 $subject = "Contato - Landing Page Ativos";
 $body = "Nome:".$nome. "\r\n".
-        "Sobrenome:".$sobrenome.
+        "Sobrenome:".$sobrenome. "\r\n".
         "Email:".$email. "\r\n".
         "Número:".$numero. "\r\n".
         "Possui CNPJ:".$CNPJ. "\r\n";
