@@ -620,7 +620,7 @@ input, select, textarea, button {
 
 /* Elemento de classe "botao" */
 .botao {
-  margin-top: 251rem;
+  position: absolute;
   width: 20.188rem;
   height: 2.438rem;
   border: none;
@@ -633,10 +633,9 @@ input, select, textarea, button {
   cursor: pointer;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   background-color: #0c6ebd;
-  position: absolute;
-  top: 90%;
   left: 50%;
   margin-right: -50%;
+  margin-top: 13%;
   transform: translate(-50%, -50%)
 
 }
