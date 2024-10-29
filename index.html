@@ -19,6 +19,31 @@
   gtag('js', new Date());
 
   gtag('config', 'AW-954956170');
+
+
+    <!-- Event snippet for Primary call button on Website, through Smart Campaign conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-954956170/os53CLWpwIoBEIrzrccD'});
+</script>
+
+
+    <!-- Event snippet for Primary call button on Website, through Smart Campaign conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-954956170/os53CLWpwIoBEIrzrccD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
     
 </script>
     
